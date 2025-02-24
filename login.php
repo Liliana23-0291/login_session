@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="loginstyle.css">
    <title>Login</title>
 </head>
-<body>
+<body style="background-color: #D3D3D3;">
    <h2 style="margin-left:20px; margin-top:20px; color:purple;">Enter Username and Password</h2> 
    <?php
       $msg = '';
@@ -41,8 +41,7 @@
                 margin: 50px;
                 padding:25px;
                 width: 180px;
-                height: 150px;"
-         action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+                height: 150px;" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
      
       <div>
          <label for="username">Username:</label>
@@ -56,6 +55,7 @@
       <section style="margin-left:60px;"><br>
          <button style="color:white; background-color: black;" type="submit" name="login">Login</button>
       </section>
+
    </form>
 
    <p style="margin-left: 2rem;"> 

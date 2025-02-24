@@ -62,5 +62,6 @@
       <a href = "logout.php" tite = "Logout">Click here to clean Session.</a>
    </p>
    </div> 
+   <img style="display: inline-block; margin: 0 auto;" src="image.jpg" alt="Meme">
 </body>
 </html>
